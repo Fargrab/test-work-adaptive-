@@ -1,0 +1,31 @@
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social__svg {
+    fill: #000;
+    transition-property: fill;
+    transition-duration: 500ms;
+}
+.social__svg:hover{
+    fill: #d74747;
+}
+.social__svg--inst{
+    width: 26px;
+    height: 26px;
+}
+.social__svg--fb{
+    width: 15px;
+    height: 27px;
+}
+.social__svg--twtr{
+    width: 26px;
+    height: 22px;
+}
+@media (max-width:768px) {
+    .social__svg{
+    margin: 15px;
+    }
+}
